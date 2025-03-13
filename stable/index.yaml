@@ -1211,5 +1211,5 @@ entries:
     - https://github.com/NVIDIA/gpu-operator
     urls:
     - https://supertetelman.github.io/gpu-operator/gpu-operator-v25.3.1.tgz
-    version: v1.0.0-devel
+    version: v25.3.1
 generated: "2025-03-12T19:44:50.434-07:00"
