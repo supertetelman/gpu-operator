@@ -3,7 +3,7 @@ entries:
   gpu-operator:
   - apiVersion: v2
     appVersion: v24.9.2
-    created: "2025-01-27T19:10:52.012176-05:00"
+    created: "2025-03-12T19:44:50.828041-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -26,11 +26,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.9.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.9.2.tgz
     version: v24.9.2
   - apiVersion: v2
     appVersion: v24.9.1
-    created: "2024-12-05T09:54:09.138243-08:00"
+    created: "2025-03-12T19:44:50.818712-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -53,11 +53,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.9.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.9.1.tgz
     version: v24.9.1
   - apiVersion: v2
     appVersion: v24.9.0
-    created: "2024-10-31T10:57:51.145191-07:00"
+    created: "2025-03-12T19:44:50.808791-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -80,11 +80,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.9.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.9.0.tgz
     version: v24.9.0
   - apiVersion: v2
     appVersion: v24.6.2
-    created: "2024-09-25T09:06:07.045006-07:00"
+    created: "2025-03-12T19:44:50.799095-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -107,11 +107,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.6.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.6.2.tgz
     version: v24.6.2
   - apiVersion: v2
     appVersion: v24.6.1
-    created: "2024-08-12T11:45:53.492942-07:00"
+    created: "2025-03-12T19:44:50.788366-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -134,11 +134,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.6.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.6.1.tgz
     version: v24.6.1
   - apiVersion: v2
     appVersion: v24.6.0
-    created: "2024-07-29T15:19:08.295983-07:00"
+    created: "2025-03-12T19:44:50.774916-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -161,11 +161,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.6.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.6.0.tgz
     version: v24.6.0
   - apiVersion: v2
     appVersion: v24.3.0
-    created: "2024-04-30T13:41:17.249474-07:00"
+    created: "2025-03-12T19:44:50.763342-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -188,11 +188,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v24.3.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v24.3.0.tgz
     version: v24.3.0
   - apiVersion: v2
     appVersion: v23.9.2
-    created: "2024-03-06T11:44:17.479338-08:00"
+    created: "2025-03-12T19:44:50.754415-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -215,11 +215,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.9.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.9.2.tgz
     version: v23.9.2
   - apiVersion: v2
     appVersion: v23.9.1
-    created: "2023-12-07T16:32:47.395798-08:00"
+    created: "2025-03-12T19:44:50.743027-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -242,18 +242,18 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.9.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.9.1.tgz
     version: v23.9.1
   - apiVersion: v2
     appVersion: v23.9.0
-    created: "2023-10-20T15:24:44.396418-07:00"
+    created: "2025-03-12T19:44:50.733915-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
       repository: https://kubernetes-sigs.github.io/node-feature-discovery/charts
       version: v0.14.2
     description: NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes
-    digest: 03b6acfda772caa875837f263de68b22be7ed9585feeb93304f8b631a58230e6
+    digest: d2581ac1b4dce043cd098287553ac2ca0cfcaf05a89d9daf5dfc4e0c06337c08
     home: https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/overview.html
     icon: https://assets.nvidiagrid.net/ngc/logos/GPUoperator.png
     keywords:
@@ -269,11 +269,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.9.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.9.0.tgz
     version: v23.9.0
   - apiVersion: v2
     appVersion: v23.6.2
-    created: "2023-12-13T14:48:19.730225669-08:00"
+    created: "2025-03-12T19:44:50.724715-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -296,11 +296,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.6.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.6.2.tgz
     version: v23.6.2
   - apiVersion: v2
     appVersion: v23.6.1
-    created: "2023-08-30T12:54:38.03461-07:00"
+    created: "2025-03-12T19:44:50.71625-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -323,11 +323,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.6.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.6.1.tgz
     version: v23.6.1
   - apiVersion: v2
     appVersion: v23.6.0
-    created: "2023-08-04T11:20:22.837396-07:00"
+    created: "2025-03-12T19:44:50.705852-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -350,11 +350,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.6.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.6.0.tgz
     version: v23.6.0
   - apiVersion: v2
     appVersion: v23.3.2
-    created: "2023-05-23T08:55:25.138131-07:00"
+    created: "2025-03-12T19:44:50.694187-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -377,11 +377,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.3.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.3.2.tgz
     version: v23.3.2
   - apiVersion: v2
     appVersion: v23.3.1
-    created: "2023-04-05T14:18:49.67432-07:00"
+    created: "2025-03-12T19:44:50.68215-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -404,11 +404,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.3.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.3.1.tgz
     version: v23.3.1
   - apiVersion: v2
     appVersion: v23.3.0
-    created: "2023-04-04T15:08:10.688234-07:00"
+    created: "2025-03-12T19:44:50.670566-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -431,11 +431,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v23.3.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v23.3.0.tgz
     version: v23.3.0
   - apiVersion: v2
     appVersion: v22.9.2
-    created: "2023-01-30T15:03:25.826347-08:00"
+    created: "2025-03-12T19:44:50.662029-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -458,11 +458,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v22.9.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v22.9.2.tgz
     version: v22.9.2
   - apiVersion: v2
     appVersion: v22.9.1
-    created: "2022-12-13T15:12:08.332161-08:00"
+    created: "2025-03-12T19:44:50.653156-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -485,11 +485,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v22.9.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v22.9.1.tgz
     version: v22.9.1
   - apiVersion: v2
     appVersion: v22.9.0
-    created: "2022-10-03T09:20:20.820883-07:00"
+    created: "2025-03-12T19:44:50.644791-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -512,11 +512,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v22.9.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v22.9.0.tgz
     version: v22.9.0
   - apiVersion: v2
     appVersion: v1.11.1
-    created: "2022-08-05T07:59:15.758799-07:00"
+    created: "2025-03-12T19:44:50.569822-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -539,11 +539,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.11.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.11.1.tgz
     version: v1.11.1
   - apiVersion: v2
     appVersion: v1.11.0
-    created: "2022-06-28T10:29:31.584434-07:00"
+    created: "2025-03-12T19:44:50.561206-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -566,11 +566,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.11.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.11.0.tgz
     version: v1.11.0
   - apiVersion: v2
     appVersion: v1.10.1
-    created: "2022-04-19T12:17:55.195179-07:00"
+    created: "2025-03-12T19:44:50.552381-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -593,11 +593,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.10.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.10.1.tgz
     version: v1.10.1
   - apiVersion: v2
     appVersion: v1.10.0
-    created: "2022-03-21T11:11:58.271474-07:00"
+    created: "2025-03-12T19:44:50.543871-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -620,11 +620,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.10.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.10.0.tgz
     version: v1.10.0
   - apiVersion: v2
     appVersion: v1.9.1
-    created: "2022-01-19T15:08:25.206758-08:00"
+    created: "2025-03-12T19:44:50.638308-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -647,11 +647,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.9.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.9.1.tgz
     version: v1.9.1
   - apiVersion: v2
     appVersion: v1.9.0
-    created: "2021-12-02T10:22:15.136097-08:00"
+    created: "2025-03-12T19:44:50.631218-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -674,11 +674,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.9.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.9.0.tgz
     version: v1.9.0
   - apiVersion: v2
     appVersion: v1.9.0-beta
-    created: "2021-11-19T14:58:45.858142-08:00"
+    created: "2025-03-12T19:44:50.621625-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -701,11 +701,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.9.0-beta.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.9.0-beta.tgz
     version: v1.9.0-beta
   - apiVersion: v2
     appVersion: v1.8.2
-    created: "2021-09-21T14:56:58.799741-07:00"
+    created: "2025-03-12T19:44:50.614312-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -728,11 +728,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.8.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.8.2.tgz
     version: v1.8.2
   - apiVersion: v2
     appVersion: v1.8.1
-    created: "2021-08-24T08:58:18.804407894-07:00"
+    created: "2025-03-12T19:44:50.605803-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -755,11 +755,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.8.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.8.1.tgz
     version: v1.8.1
   - apiVersion: v2
     appVersion: v1.8.0
-    created: "2021-08-09T15:56:25.621934-07:00"
+    created: "2025-03-12T19:44:50.596431-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -782,11 +782,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.8.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.8.0.tgz
     version: v1.8.0
   - apiVersion: v2
     appVersion: v1.7.1
-    created: "2021-07-08T08:44:25.106071-07:00"
+    created: "2025-03-12T19:44:50.587957-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -809,11 +809,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.7.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.7.1.tgz
     version: v1.7.1
   - apiVersion: v2
     appVersion: v1.7.0
-    created: "2021-05-24T06:36:25.175746-07:00"
+    created: "2025-03-12T19:44:50.578606-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -836,11 +836,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-v1.7.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v1.7.0.tgz
     version: v1.7.0
   - apiVersion: v2
     appVersion: 1.6.2
-    created: "2021-03-10T16:33:52.773576-08:00"
+    created: "2025-03-12T19:44:50.536818-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -863,11 +863,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.6.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.6.2.tgz
     version: 1.6.2
   - apiVersion: v2
     appVersion: 1.6.1
-    created: "2021-03-05T10:49:02.268802-08:00"
+    created: "2025-03-12T19:44:50.529514-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -890,11 +890,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.6.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.6.1.tgz
     version: 1.6.1
   - apiVersion: v2
     appVersion: 1.6.0
-    created: "2021-02-24T15:19:06.192091-08:00"
+    created: "2025-03-12T19:44:50.522621-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -917,11 +917,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.6.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.6.0.tgz
     version: 1.6.0
   - apiVersion: v2
     appVersion: 1.5.2
-    created: "2021-02-08T12:34:22.866174-08:00"
+    created: "2025-03-12T19:44:50.515245-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -944,11 +944,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.5.2.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.5.2.tgz
     version: 1.5.2
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2021-01-25T17:29:27.932325-08:00"
+    created: "2025-03-12T19:44:50.508547-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -971,11 +971,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.5.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.5.1.tgz
     version: 1.5.1
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2021-01-19T08:47:21.5669-08:00"
+    created: "2025-03-12T19:44:50.503527-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -998,11 +998,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.5.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.5.0.tgz
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2020-12-02T17:07:02.8129-08:00"
+    created: "2025-03-12T19:44:50.497877-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1025,11 +1025,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.4.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2020-10-28T14:19:09.299294537-07:00"
+    created: "2025-03-12T19:44:50.491489-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1052,11 +1052,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.3.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.3.0-rc.1
-    created: "2020-10-28T14:19:09.292513139-07:00"
+    created: "2025-03-12T19:44:50.486001-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1078,11 +1078,11 @@ entries:
     sources:
     - https://github.com/NVIDIA/gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.3.0-rc.1.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.3.0-rc.1.tgz
     version: 1.3.0-rc.1
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2020-10-28T14:19:09.285084941-07:00"
+    created: "2025-03-12T19:44:50.480499-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1094,11 +1094,11 @@ entries:
     kubeVersion: '>= 1.13.0-0'
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.2.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.7
-    created: "2020-10-28T14:19:09.28237587-07:00"
+    created: "2025-03-12T19:44:50.47513-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1110,11 +1110,11 @@ entries:
     kubeVersion: '>= 1.13.0-0'
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.1.7.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.1.7.tgz
     version: 1.1.7
   - apiVersion: v2
     appVersion: 1.1.6
-    created: "2020-10-28T14:19:09.279586711-07:00"
+    created: "2025-03-12T19:44:50.469332-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1126,11 +1126,11 @@ entries:
     kubeVersion: '>= 1.13.0-0'
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.1.6.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.1.6.tgz
     version: 1.1.6
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2020-10-28T14:19:09.278267712-07:00"
+    created: "2025-03-12T19:44:50.462237-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1142,11 +1142,11 @@ entries:
     kubeVersion: '>= 1.13.0-0'
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.1.5.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.1.5.tgz
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2020-10-28T14:19:09.277391948-07:00"
+    created: "2025-03-12T19:44:50.455889-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1158,11 +1158,11 @@ entries:
     kubeVersion: '>= 1.13.0-0'
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.1.4.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2020-10-28T14:19:09.276544052-07:00"
+    created: "2025-03-12T19:44:50.448322-07:00"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -1174,15 +1174,42 @@ entries:
     kubeVersion: '>= 1.13.0-0'
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.1.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-10-28T14:19:09.27565759-07:00"
+    created: "2025-03-12T19:44:50.442649-07:00"
     description: A Helm chart for Kubernetes
     digest: 44704de699c019778ecf2a4ec521739373328bfba690d54b3826e31d0b4d66fd
     name: gpu-operator
     urls:
-    - https://nvidia.github.io/gpu-operator/stable/gpu-operator-1.0.0.tgz
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-1.0.0.tgz
     version: 1.0.0
-generated: "2025-01-27T19:10:52.007937-05:00"
+  - apiVersion: v2
+    appVersion: devel-ubi8
+    created: "2025-03-12T19:44:50.83814-07:00"
+    dependencies:
+    - condition: nfd.enabled
+      name: node-feature-discovery
+      repository: https://kubernetes-sigs.github.io/node-feature-discovery/charts
+      version: v0.17.2
+    description: NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes
+    digest: 0ecd8375e88c609bb0634588a53bdcc89d9903bd582b87da494847fea84ea24e
+    home: https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/overview.html
+    icon: https://assets.nvidiagrid.net/ngc/logos/GPUoperator.png
+    keywords:
+    - gpu
+    - cuda
+    - compute
+    - operator
+    - deep learning
+    - monitoring
+    - tesla
+    kubeVersion: '>= 1.16.0-0'
+    name: gpu-operator
+    sources:
+    - https://github.com/NVIDIA/gpu-operator
+    urls:
+    - https://supertetelman.github.io/gpu-operator/gpu-operator-v25.3.1.tgz
+    version: v1.0.0-devel
+generated: "2025-03-12T19:44:50.434-07:00"
